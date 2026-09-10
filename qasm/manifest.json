@@ -1,0 +1,482 @@
+[
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb2.qasm",
+    "L": 4,
+    "N_b": 2,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 144,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "6cb916ac0e26a9772382384e77dc60b437c18b545e4472b6e879ca33c2555e1f"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb2.qasm",
+    "L": 6,
+    "N_b": 2,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 360,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "927737f8cea55e4c844d2c80e09e57198a648c79ad8de1026945bbdbf0f78cef"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb2.qasm",
+    "L": 8,
+    "N_b": 2,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 672,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "f45f82cb91a67561853aae8ede0e61ef3dee7369f82c5e6d6cf50d948806c3a7"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb2.qasm",
+    "L": 10,
+    "N_b": 2,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 1080,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "fe3908ed6257d46cb740260f334f19246484971de8872db8bf5c9c924d72b6fc"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb3.qasm",
+    "L": 4,
+    "N_b": 3,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 216,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "c96ddc587bf2257bcc59defa7431ac89155f9ff85d0ad71bd611f02a9131ba6d"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb3.qasm",
+    "L": 6,
+    "N_b": 3,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 540,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "de26ec352a614820a72f5b5d8e88dee72a6e789e74515ce178e7482e6a422ba5"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb3.qasm",
+    "L": 8,
+    "N_b": 3,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 1008,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "99512a023580e07e3722590f4599acbff00030a4b189e7a69f80f0b15898cada"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb3.qasm",
+    "L": 10,
+    "N_b": 3,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 1620,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "7a84e1490f6d3a7d170030bff0a8edccd284e1f25575b7257ab70eb3a05c1bb1"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb4.qasm",
+    "L": 4,
+    "N_b": 4,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 288,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "d17b5609f007dc6e4660e9fcda79f6be0d62a6fdda7df5f571455bba3b9da0db"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb4.qasm",
+    "L": 6,
+    "N_b": 4,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 720,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "fdddf687d940fe1429a45719bd7e3385362c7b92d245b6f0aa67e79ce43746ef"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb4.qasm",
+    "L": 8,
+    "N_b": 4,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 1344,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "78d9133bad7f40388f4c7bc04277b0754a4b165681036b60cfd0cb841ffc0f86"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb4.qasm",
+    "L": 10,
+    "N_b": 4,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 2160,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "b1ce31a55e04455ddb4eda1d540ba6e69d43e3364ba33ea95c658438042b627a"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb5.qasm",
+    "L": 4,
+    "N_b": 5,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 360,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "e080f6d0b3772c262528c94be3f6f18606b886bd39b0aaea37e2a15d6bb90632"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb5.qasm",
+    "L": 6,
+    "N_b": 5,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 900,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "88bcdcbd18e2ca226c3634d7d72834d4d21d5b0c75c5fcc66b554fcfb249b0dc"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb5.qasm",
+    "L": 8,
+    "N_b": 5,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 1680,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "75009c5ba90c1df4c0707a0a8a3a918467ff41d1496fa851569ff5f170aab3ad"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb5.qasm",
+    "L": 10,
+    "N_b": 5,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 2700,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "a4c4adbc5407ae872b32d5a3d18dc0294f63a50ebb5bcbf25fe5d0639a06939f"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb6.qasm",
+    "L": 4,
+    "N_b": 6,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 432,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "d71061a3d44580d3ba1315286b5e46499ececd424d4c215137b687a978ff3969"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb6.qasm",
+    "L": 6,
+    "N_b": 6,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 1080,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "fe8484df004302c0be8cc0261eec1da2da1fd398f07d79ffc20298223ca49fae"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb6.qasm",
+    "L": 8,
+    "N_b": 6,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 2016,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "b3f5a9f3567b24e80dc3566e3f8f65b9d735864aa9bdcd3cd9b51bec4898f761"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb6.qasm",
+    "L": 10,
+    "N_b": 6,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 3240,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "eba4797a82da43a86ac1534fd9565aa09c99c8d464855f4dddcd4366db7fe347"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb7.qasm",
+    "L": 4,
+    "N_b": 7,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 504,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "4a536c2ef239baa163deb16b40d5e7f1d57a8d35b7b3e4cee82df62f026f9798"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb7.qasm",
+    "L": 6,
+    "N_b": 7,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 1260,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "b25a5ee394cc5cd91d02cd108157e59f46d6bc163ac4ddfd12da3b3bcf57dbfe"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb7.qasm",
+    "L": 8,
+    "N_b": 7,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 2352,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "09d5b23e127512cfc5a76c7e49a53d94c43de7300bed39646401a352620acf71"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb7.qasm",
+    "L": 10,
+    "N_b": 7,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 3780,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "65a169415542ae8f4dda6d9f38bc19aef6deec160ac24fbf61cf57e0b84ea114"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb8.qasm",
+    "L": 4,
+    "N_b": 8,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 576,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "55a3ff95d8345df35a68b5c56c0b7180579e1aae0e7d1011d5e79f2f541346f1"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb8.qasm",
+    "L": 6,
+    "N_b": 8,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 1440,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "2b71bb3e81bbb1568298c7d468a38fa94be872bb28d036f5ed244996ddf994f0"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb8.qasm",
+    "L": 8,
+    "N_b": 8,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 2688,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "42b1f51a143e4b0e71006223833b270ffdb6a4a7d624a78a9cdd03ca7aa4fb92"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb8.qasm",
+    "L": 10,
+    "N_b": 8,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 4320,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "cc75e910d3baebd13ef718395a3e6c8ab33f0893f569ee8cef9e91bf3ecd5bee"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb9.qasm",
+    "L": 4,
+    "N_b": 9,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 648,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "a1750d55b65eafc15d1aa4ace0b28255b9dbd80cd4a0a39c0a0c0194c32261e3"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb9.qasm",
+    "L": 6,
+    "N_b": 9,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 1620,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "6f911777588989e9c8cfe6bac0c88d072cec64f3c766bf68a3901b762a239939"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb9.qasm",
+    "L": 8,
+    "N_b": 9,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 3024,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "554ff145a7ff0bd44aa14869504211faee2a18b9d64e785efcf4cbaf905f3d36"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb9.qasm",
+    "L": 10,
+    "N_b": 9,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 4860,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "80080dab489606844d65e4bf7b35bd158ceebcd1edbed9862fda797eb576849e"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L4x4_Nb10.qasm",
+    "L": 4,
+    "N_b": 10,
+    "model": "heisenberg",
+    "qubits": 16,
+    "rotations": 720,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "64eb73df6c454b71b6a03be8380de3b2d5100434d1856fb269fd30c45b1ab066"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L6x6_Nb10.qasm",
+    "L": 6,
+    "N_b": 10,
+    "model": "heisenberg",
+    "qubits": 36,
+    "rotations": 1800,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "3b747b4784996659a2308ac37b5d477921e1b749428c64f48e627ed5122aa001"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L8x8_Nb10.qasm",
+    "L": 8,
+    "N_b": 10,
+    "model": "heisenberg",
+    "qubits": 64,
+    "rotations": 3360,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "71d8dac23118dce33953f59ac711830cde00477aecc8baa700fad6080598c781"
+  },
+  {
+    "file": "qasm/heisenberg/heisenberg_L10x10_Nb10.qasm",
+    "L": 10,
+    "N_b": 10,
+    "model": "heisenberg",
+    "qubits": 100,
+    "rotations": 5400,
+    "source": "heisenberg_layer_shared.csv",
+    "sha256": "68dc60b55eda0c21906a50e7293096ed685bf38d5d2bffd6d680b7aef9de60e3"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L4x4_Nb3.qasm",
+    "L": 4,
+    "N_b": 3,
+    "model": "hubbard",
+    "qubits": 32,
+    "rotations": 408,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "2864f35d31974e53a979b2787204231b310a7aa757c41fadb3cb52a4cc751638"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L6x6_Nb3.qasm",
+    "L": 6,
+    "N_b": 3,
+    "model": "hubbard",
+    "qubits": 72,
+    "rotations": 1020,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "1bcd1d440d3cb001a29ea21e6157a4c850fe5a255b13b67b4082e9c5dbc0aa1b"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L8x8_Nb3.qasm",
+    "L": 8,
+    "N_b": 3,
+    "model": "hubbard",
+    "qubits": 128,
+    "rotations": 1904,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "038af9dc512a6c2649f9181e8f1d335067fc2c6c8d8d85fef23f4b3520ddf0c4"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L10x10_Nb3.qasm",
+    "L": 10,
+    "N_b": 3,
+    "model": "hubbard",
+    "qubits": 200,
+    "rotations": 3060,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "9c9eeb6a5d2f2c7c1cd73bcc0bc36374046835f75e375ba6c4f83e7f077311c2"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L4x4_Nb4.qasm",
+    "L": 4,
+    "N_b": 4,
+    "model": "hubbard",
+    "qubits": 32,
+    "rotations": 480,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "977be4cd89a0af220991a6e35746400104f5c9e7e528396e79cfcc43a8c2a794"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L6x6_Nb4.qasm",
+    "L": 6,
+    "N_b": 4,
+    "model": "hubbard",
+    "qubits": 72,
+    "rotations": 1200,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "9d82db811812bbc4e64dba9491ef008028ac48f3ae7193ebfe5e886fc154ddb0"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L8x8_Nb4.qasm",
+    "L": 8,
+    "N_b": 4,
+    "model": "hubbard",
+    "qubits": 128,
+    "rotations": 2240,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "4c3029624c8f6aba6d6de2ea08ddf524b1832c807130a42de2555c85df807c18"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L10x10_Nb4.qasm",
+    "L": 10,
+    "N_b": 4,
+    "model": "hubbard",
+    "qubits": 200,
+    "rotations": 3600,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "98052fe650c1918474b933edef613672c1b6ea255296b25594f7fbe2a91a1c9a"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L4x4_Nb5.qasm",
+    "L": 4,
+    "N_b": 5,
+    "model": "hubbard",
+    "qubits": 32,
+    "rotations": 552,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "9f63aeb2e2df5293aaf6c9bba6431cad814eda77ed14521744cd9901576b9c87"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L6x6_Nb5.qasm",
+    "L": 6,
+    "N_b": 5,
+    "model": "hubbard",
+    "qubits": 72,
+    "rotations": 1380,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "6cef2697fc3b692fb8a5ceceead42b3a6ebedab83e5f14404cb04e50a588827d"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L8x8_Nb5.qasm",
+    "L": 8,
+    "N_b": 5,
+    "model": "hubbard",
+    "qubits": 128,
+    "rotations": 2576,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "e36504f75d7f35a4bf8db98eca21a05bed0de96643ea783eaf8d198195640878"
+  },
+  {
+    "file": "qasm/hubbard/hubbard_L10x10_Nb5.qasm",
+    "L": 10,
+    "N_b": 5,
+    "model": "hubbard",
+    "qubits": 200,
+    "rotations": 4140,
+    "source": "hubbard_layer_shared.csv",
+    "sha256": "f7ba9bb06520bfebf21aab602d765349a9603034ab1746abe7fd1c7c686cdbf3"
+  }
+]

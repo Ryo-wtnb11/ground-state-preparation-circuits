@@ -1,0 +1,1827 @@
+{
+ "segments": [
+  {
+   "segment": "st013",
+   "global_step": 0,
+   "description": "8192 samples, lr 0.005"
+  },
+  {
+   "segment": "st013b",
+   "global_step": 11,
+   "description": "8 pools, lr 0.005"
+  },
+  {
+   "segment": "stream",
+   "global_step": 15,
+   "description": "fresh 10000/step, lr 0.01->0.001"
+  },
+  {
+   "segment": "noise",
+   "global_step": 30,
+   "description": "kick sigma=0.05, lr 0.1->0.001"
+  }
+ ],
+ "steps": [
+  {
+   "global_step": 0,
+   "segment": "st013",
+   "step": 0,
+   "training": 0.6955753564834595,
+   "held_out": 0.7001867890357971,
+   "lr": 0.005,
+   "grad_max": 0.2606442958512854,
+   "move_max": 0.004999999808167691
+  },
+  {
+   "global_step": 1,
+   "segment": "st013",
+   "step": 1,
+   "training": 0.6967350244522095,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.17420574640892433,
+   "move_max": 0.005003476445083148
+  },
+  {
+   "global_step": 2,
+   "segment": "st013",
+   "step": 2,
+   "training": 0.7020242810249329,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.11164052662243754,
+   "move_max": 0.004878706557584442
+  },
+  {
+   "global_step": 3,
+   "segment": "st013",
+   "step": 3,
+   "training": 0.6986622214317322,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.10617724905196968,
+   "move_max": 0.004527294720266558
+  },
+  {
+   "global_step": 4,
+   "segment": "st013",
+   "step": 4,
+   "training": 0.705660343170166,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.1431162736666368,
+   "move_max": 0.004025107500316135
+  },
+  {
+   "global_step": 5,
+   "segment": "st013",
+   "step": 5,
+   "training": 0.7061333656311035,
+   "held_out": 0.7079171538352966,
+   "lr": 0.005,
+   "grad_max": 0.07759882670592098,
+   "move_max": 0.003751968497150886
+  },
+  {
+   "global_step": 6,
+   "segment": "st013",
+   "step": 6,
+   "training": 0.6962777972221375,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.08012476405385911,
+   "move_max": 0.0038170340272905092
+  },
+  {
+   "global_step": 7,
+   "segment": "st013",
+   "step": 7,
+   "training": 0.7019059658050537,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.07497719160852964,
+   "move_max": 0.003475499511864741
+  },
+  {
+   "global_step": 8,
+   "segment": "st013",
+   "step": 8,
+   "training": 0.6949486136436462,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.07646596447789981,
+   "move_max": 0.0030672384114590365
+  },
+  {
+   "global_step": 9,
+   "segment": "st013",
+   "step": 9,
+   "training": 0.6953135132789612,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.060812303630989495,
+   "move_max": 0.0028468967449239873
+  },
+  {
+   "global_step": 10,
+   "segment": "st013",
+   "step": 10,
+   "training": 0.7007508277893066,
+   "held_out": 0.7104547023773193,
+   "lr": 0.005,
+   "grad_max": 0.04644721408540033,
+   "move_max": 0.00249896806190362
+  },
+  {
+   "global_step": 11,
+   "segment": "st013b",
+   "step": 0,
+   "training": 0.7075170874595642,
+   "held_out": 0.7105122208595276,
+   "lr": 0.005,
+   "grad_max": 0.08650394076662313,
+   "move_max": 0.004999999421991722
+  },
+  {
+   "global_step": 12,
+   "segment": "st013b",
+   "step": 1,
+   "training": 0.7059135437011719,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.14702092693217467,
+   "move_max": 0.00500169757158877
+  },
+  {
+   "global_step": 13,
+   "segment": "st013b",
+   "step": 2,
+   "training": 0.7107558846473694,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.08560014970705164,
+   "move_max": 0.0038432726469206494
+  },
+  {
+   "global_step": 14,
+   "segment": "st013b",
+   "step": 3,
+   "training": 0.7094762325286865,
+   "held_out": null,
+   "lr": 0.005,
+   "grad_max": 0.04151223771852074,
+   "move_max": 0.003898637421299212
+  },
+  {
+   "global_step": 15,
+   "segment": "stream",
+   "step": 0,
+   "training": 0.7012443542480469,
+   "held_out": 0.7096233367919922,
+   "lr": 0.01,
+   "grad_max": 0.09612901874711736,
+   "move_max": 0.009999998959731514
+  },
+  {
+   "global_step": 16,
+   "segment": "stream",
+   "step": 1,
+   "training": 0.6990006566047668,
+   "held_out": null,
+   "lr": 0.009846652027941234,
+   "grad_max": 0.2072004357341906,
+   "move_max": 0.009445895494518757
+  },
+  {
+   "global_step": 17,
+   "segment": "stream",
+   "step": 2,
+   "training": 0.7030680179595947,
+   "held_out": null,
+   "lr": 0.00969565561593592,
+   "grad_max": 0.08428600315949411,
+   "move_max": 0.007709222945604796
+  },
+  {
+   "global_step": 18,
+   "segment": "stream",
+   "step": 3,
+   "training": 0.695833146572113,
+   "held_out": null,
+   "lr": 0.009546974703287523,
+   "grad_max": 0.14320091659573017,
+   "move_max": 0.005172188928237845
+  },
+  {
+   "global_step": 19,
+   "segment": "stream",
+   "step": 4,
+   "training": 0.701389491558075,
+   "held_out": null,
+   "lr": 0.009400573782282973,
+   "grad_max": 0.16406458981543148,
+   "move_max": 0.005693853613675097
+  },
+  {
+   "global_step": 20,
+   "segment": "stream",
+   "step": 5,
+   "training": 0.696033239364624,
+   "held_out": 0.7091665863990784,
+   "lr": 0.009256417889712782,
+   "grad_max": 0.11931763235185351,
+   "move_max": 0.006145190024934551
+  },
+  {
+   "global_step": 21,
+   "segment": "stream",
+   "step": 6,
+   "training": 0.7075231671333313,
+   "held_out": null,
+   "lr": 0.009114472598521188,
+   "grad_max": 0.04578767912251372,
+   "move_max": 0.0040143494162199755
+  },
+  {
+   "global_step": 22,
+   "segment": "stream",
+   "step": 7,
+   "training": 0.7001778483390808,
+   "held_out": null,
+   "lr": 0.008974704009584345,
+   "grad_max": 0.07751839489109064,
+   "move_max": 0.0032843916147567826
+  },
+  {
+   "global_step": 23,
+   "segment": "stream",
+   "step": 8,
+   "training": 0.7068378925323486,
+   "held_out": null,
+   "lr": 0.008837078743614602,
+   "grad_max": 0.15206688797043555,
+   "move_max": 0.0027667973916490605
+  },
+  {
+   "global_step": 24,
+   "segment": "stream",
+   "step": 9,
+   "training": 0.7023118138313293,
+   "held_out": null,
+   "lr": 0.008701563933188907,
+   "grad_max": 0.13495981635990092,
+   "move_max": 0.003800655998049632
+  },
+  {
+   "global_step": 25,
+   "segment": "stream",
+   "step": 10,
+   "training": 0.7108058929443359,
+   "held_out": 0.7099226117134094,
+   "lr": 0.008568127214899485,
+   "grad_max": 0.05998328322987987,
+   "move_max": 0.004064275035051561
+  },
+  {
+   "global_step": 26,
+   "segment": "stream",
+   "step": 11,
+   "training": 0.7047349214553833,
+   "held_out": null,
+   "lr": 0.008436736721624849,
+   "grad_max": 0.0412460630163471,
+   "move_max": 0.0035761902105561237
+  },
+  {
+   "global_step": 27,
+   "segment": "stream",
+   "step": 12,
+   "training": 0.7030185461044312,
+   "held_out": null,
+   "lr": 0.008307361074919358,
+   "grad_max": 0.05283961973803717,
+   "move_max": 0.0026731974549504623
+  },
+  {
+   "global_step": 28,
+   "segment": "stream",
+   "step": 13,
+   "training": 0.7002281546592712,
+   "held_out": null,
+   "lr": 0.008179969377519476,
+   "grad_max": 0.06926437819605717,
+   "move_max": 0.00275669309235051
+  },
+  {
+   "global_step": 29,
+   "segment": "stream",
+   "step": 14,
+   "training": 0.7073220610618591,
+   "held_out": null,
+   "lr": 0.008054531205964933,
+   "grad_max": 0.06507951812536801,
+   "move_max": 0.002538823301658155
+  },
+  {
+   "global_step": 30,
+   "segment": "noise",
+   "step": 0,
+   "training": 0.5309337377548218,
+   "held_out": 0.537651002407074,
+   "lr": 0.1,
+   "grad_max": 1.2654177775130218,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 31,
+   "segment": "noise",
+   "step": 1,
+   "training": 0.6643472909927368,
+   "held_out": null,
+   "lr": 0.0969565561593592,
+   "grad_max": 0.5472882321751944,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 32,
+   "segment": "noise",
+   "step": 2,
+   "training": 0.6718095541000366,
+   "held_out": null,
+   "lr": 0.09400573782282974,
+   "grad_max": 0.47181693873065483,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 33,
+   "segment": "noise",
+   "step": 3,
+   "training": 0.5801500678062439,
+   "held_out": null,
+   "lr": 0.0911447259852119,
+   "grad_max": 0.9697011910625958,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 34,
+   "segment": "noise",
+   "step": 4,
+   "training": 0.5994600653648376,
+   "held_out": null,
+   "lr": 0.08837078743614601,
+   "grad_max": 0.9844036974536053,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 35,
+   "segment": "noise",
+   "step": 5,
+   "training": 0.6753642559051514,
+   "held_out": 0.6865509152412415,
+   "lr": 0.08568127214899485,
+   "grad_max": 0.4184747823623929,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 36,
+   "segment": "noise",
+   "step": 6,
+   "training": 0.6742942929267883,
+   "held_out": null,
+   "lr": 0.08307361074919359,
+   "grad_max": 0.44435846945792595,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 37,
+   "segment": "noise",
+   "step": 7,
+   "training": 0.6280549168586731,
+   "held_out": null,
+   "lr": 0.08054531205964932,
+   "grad_max": 0.7914714447665171,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 38,
+   "segment": "noise",
+   "step": 8,
+   "training": 0.6523168087005615,
+   "held_out": null,
+   "lr": 0.07809396072084501,
+   "grad_max": 0.6670760296357383,
+   "move_max": 0.026938668206323284
+  },
+  {
+   "global_step": 39,
+   "segment": "noise",
+   "step": 9,
+   "training": 0.6834007501602173,
+   "held_out": null,
+   "lr": 0.07571721488337402,
+   "grad_max": 0.28733988079838096,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 40,
+   "segment": "noise",
+   "step": 10,
+   "training": 0.690778374671936,
+   "held_out": 0.6907822489738464,
+   "lr": 0.0734128039707012,
+   "grad_max": 0.31191043776662264,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 41,
+   "segment": "noise",
+   "step": 11,
+   "training": 0.6781952977180481,
+   "held_out": null,
+   "lr": 0.07117852651001319,
+   "grad_max": 0.5035289336086501,
+   "move_max": 0.03
+  },
+  {
+   "global_step": 42,
+   "segment": "noise",
+   "step": 12,
+   "training": 0.6714954376220703,
+   "held_out": null,
+   "lr": 0.06901224802908532,
+   "grad_max": 0.519753973093176,
+   "move_max": 0.021249861129420983
+  },
+  {
+   "global_step": 43,
+   "segment": "noise",
+   "step": 13,
+   "training": 0.677213728427887,
+   "held_out": null,
+   "lr": 0.06691189901715636,
+   "grad_max": 0.34126350841342606,
+   "move_max": 0.017572152033341913
+  },
+  {
+   "global_step": 44,
+   "segment": "noise",
+   "step": 14,
+   "training": 0.69123375415802,
+   "held_out": null,
+   "lr": 0.06487547294786292,
+   "grad_max": 0.3452162406354422,
+   "move_max": 0.02140364783209568
+  },
+  {
+   "global_step": 45,
+   "segment": "noise",
+   "step": 15,
+   "training": 0.6850542426109314,
+   "held_out": 0.6951597332954407,
+   "lr": 0.0629010243623446,
+   "grad_max": 0.36647152018545426,
+   "move_max": 0.024019655952707455
+  },
+  {
+   "global_step": 46,
+   "segment": "noise",
+   "step": 16,
+   "training": 0.6970242857933044,
+   "held_out": null,
+   "lr": 0.06098666701068885,
+   "grad_max": 0.3854863070945329,
+   "move_max": 0.026777894974202944
+  },
+  {
+   "global_step": 47,
+   "segment": "noise",
+   "step": 17,
+   "training": 0.69973224401474,
+   "held_out": null,
+   "lr": 0.05913057204993991,
+   "grad_max": 0.2737127189012987,
+   "move_max": 0.0231220320256829
+  },
+  {
+   "global_step": 48,
+   "segment": "noise",
+   "step": 18,
+   "training": 0.701353907585144,
+   "held_out": null,
+   "lr": 0.057330966296950336,
+   "grad_max": 0.18826861288650948,
+   "move_max": 0.014491106906156046
+  },
+  {
+   "global_step": 49,
+   "segment": "noise",
+   "step": 19,
+   "training": 0.6856986284255981,
+   "held_out": null,
+   "lr": 0.055586130534405954,
+   "grad_max": 0.24435448805536117,
+   "move_max": 0.009821269614120127
+  },
+  {
+   "global_step": 50,
+   "segment": "noise",
+   "step": 20,
+   "training": 0.6872987747192383,
+   "held_out": 0.6968142986297607,
+   "lr": 0.053894397868406024,
+   "grad_max": 0.2591188170452075,
+   "move_max": 0.01158199150030537
+  },
+  {
+   "global_step": 51,
+   "segment": "noise",
+   "step": 21,
+   "training": 0.6968429088592529,
+   "held_out": null,
+   "lr": 0.05225415213602957,
+   "grad_max": 0.2551248547667992,
+   "move_max": 0.012691518317449822
+  },
+  {
+   "global_step": 52,
+   "segment": "noise",
+   "step": 22,
+   "training": 0.6992961764335632,
+   "held_out": null,
+   "lr": 0.050663826361366494,
+   "grad_max": 0.21979087505400055,
+   "move_max": 0.012922687053075517
+  },
+  {
+   "global_step": 53,
+   "segment": "noise",
+   "step": 23,
+   "training": 0.700499415397644,
+   "held_out": null,
+   "lr": 0.04912190125853854,
+   "grad_max": 0.16531327745002852,
+   "move_max": 0.012691887016806675
+  },
+  {
+   "global_step": 54,
+   "segment": "noise",
+   "step": 24,
+   "training": 0.7048450708389282,
+   "held_out": null,
+   "lr": 0.047626903780279894,
+   "grad_max": 0.13131334164784542,
+   "move_max": 0.00922961133742635
+  },
+  {
+   "global_step": 55,
+   "segment": "noise",
+   "step": 25,
+   "training": 0.6931116580963135,
+   "held_out": 0.7041473388671875,
+   "lr": 0.04617740571069104,
+   "grad_max": 0.19995463743967207,
+   "move_max": 0.006778147830295231
+  },
+  {
+   "global_step": 56,
+   "segment": "noise",
+   "step": 26,
+   "training": 0.6942232847213745,
+   "held_out": null,
+   "lr": 0.0447720223008213,
+   "grad_max": 0.22648481924342673,
+   "move_max": 0.006340285203139448
+  },
+  {
+   "global_step": 57,
+   "segment": "noise",
+   "step": 27,
+   "training": 0.6998736262321472,
+   "held_out": null,
+   "lr": 0.043409410945776626,
+   "grad_max": 0.16119587856363857,
+   "move_max": 0.00888671659528839
+  },
+  {
+   "global_step": 58,
+   "segment": "noise",
+   "step": 28,
+   "training": 0.7102718353271484,
+   "held_out": null,
+   "lr": 0.04208826990208893,
+   "grad_max": 0.09112277229569292,
+   "move_max": 0.009031429905890216
+  },
+  {
+   "global_step": 59,
+   "segment": "noise",
+   "step": 29,
+   "training": 0.6933894157409668,
+   "held_out": null,
+   "lr": 0.040807337044121525,
+   "grad_max": 0.10883166582961483,
+   "move_max": 0.00798838335445463
+  },
+  {
+   "global_step": 60,
+   "segment": "noise",
+   "step": 30,
+   "training": 0.7040764093399048,
+   "held_out": 0.7076058983802795,
+   "lr": 0.03956538865832268,
+   "grad_max": 0.1600934624037507,
+   "move_max": 0.004961553719565187
+  },
+  {
+   "global_step": 61,
+   "segment": "noise",
+   "step": 31,
+   "training": 0.7023725509643555,
+   "held_out": null,
+   "lr": 0.03836123827417536,
+   "grad_max": 0.16683927021785863,
+   "move_max": 0.0035238369715251544
+  },
+  {
+   "global_step": 62,
+   "segment": "noise",
+   "step": 32,
+   "training": 0.7043108344078064,
+   "held_out": null,
+   "lr": 0.03719373553072643,
+   "grad_max": 0.15464208102950341,
+   "move_max": 0.004552554780682145
+  },
+  {
+   "global_step": 63,
+   "segment": "noise",
+   "step": 33,
+   "training": 0.7035397887229919,
+   "held_out": null,
+   "lr": 0.036061765077612294,
+   "grad_max": 0.09583842180184511,
+   "move_max": 0.005341997057453245
+  },
+  {
+   "global_step": 64,
+   "segment": "noise",
+   "step": 34,
+   "training": 0.7028458118438721,
+   "held_out": null,
+   "lr": 0.03496424550953135,
+   "grad_max": 0.08232128557517565,
+   "move_max": 0.004852242305605469
+  },
+  {
+   "global_step": 65,
+   "segment": "noise",
+   "step": 35,
+   "training": 0.7091091275215149,
+   "held_out": 0.7094255089759827,
+   "lr": 0.03390012833314499,
+   "grad_max": 0.09820369601595669,
+   "move_max": 0.0035258915308001826
+  },
+  {
+   "global_step": 66,
+   "segment": "noise",
+   "step": 36,
+   "training": 0.698448657989502,
+   "held_out": null,
+   "lr": 0.032868396965420564,
+   "grad_max": 0.09635279716275043,
+   "move_max": 0.0025014206177756074
+  },
+  {
+   "global_step": 67,
+   "segment": "noise",
+   "step": 37,
+   "training": 0.6954438090324402,
+   "held_out": null,
+   "lr": 0.0318680657624591,
+   "grad_max": 0.11588970542067219,
+   "move_max": 0.002304484510108199
+  },
+  {
+   "global_step": 68,
+   "segment": "noise",
+   "step": 38,
+   "training": 0.7017550468444824,
+   "held_out": null,
+   "lr": 0.030898179077880172,
+   "grad_max": 0.08467067049475897,
+   "move_max": 0.0019072863344321666
+  },
+  {
+   "global_step": 69,
+   "segment": "noise",
+   "step": 39,
+   "training": 0.6985901594161987,
+   "held_out": null,
+   "lr": 0.029957810349864267,
+   "grad_max": 0.10760750265663849,
+   "move_max": 0.0015863713098987454
+  },
+  {
+   "global_step": 70,
+   "segment": "noise",
+   "step": 40,
+   "training": 0.7043697237968445,
+   "held_out": 0.7097927331924438,
+   "lr": 0.029046061215980468,
+   "grad_max": 0.06876396981409999,
+   "move_max": 0.001818428045977147
+  },
+  {
+   "global_step": 71,
+   "segment": "noise",
+   "step": 41,
+   "training": 0.7069195508956909,
+   "held_out": null,
+   "lr": 0.028162060654953955,
+   "grad_max": 0.07450936210884189,
+   "move_max": 0.0024394171612133896
+  },
+  {
+   "global_step": 72,
+   "segment": "noise",
+   "step": 42,
+   "training": 0.7029363512992859,
+   "held_out": null,
+   "lr": 0.027304964154553232,
+   "grad_max": 0.1215384170232738,
+   "move_max": 0.0022493544536535
+  },
+  {
+   "global_step": 73,
+   "segment": "noise",
+   "step": 43,
+   "training": 0.7077376246452332,
+   "held_out": null,
+   "lr": 0.026473952904802298,
+   "grad_max": 0.08060417402151547,
+   "move_max": 0.0021719249111722366
+  },
+  {
+   "global_step": 74,
+   "segment": "noise",
+   "step": 44,
+   "training": 0.7050865292549133,
+   "held_out": null,
+   "lr": 0.025668233015746944,
+   "grad_max": 0.06377247696413689,
+   "move_max": 0.0016392977141932695
+  },
+  {
+   "global_step": 75,
+   "segment": "noise",
+   "step": 45,
+   "training": 0.7030551433563232,
+   "held_out": 0.7100538611412048,
+   "lr": 0.024887034759027867,
+   "grad_max": 0.05268938351377655,
+   "move_max": 0.0015507063786319778
+  },
+  {
+   "global_step": 76,
+   "segment": "noise",
+   "step": 46,
+   "training": 0.7016944289207458,
+   "held_out": null,
+   "lr": 0.024129611832536098,
+   "grad_max": 0.045268511535401526,
+   "move_max": 0.0028776483996670113
+  },
+  {
+   "global_step": 77,
+   "segment": "noise",
+   "step": 47,
+   "training": 0.6979878544807434,
+   "held_out": null,
+   "lr": 0.023395240647448245,
+   "grad_max": 0.07763442522996108,
+   "move_max": 0.0030077759537445073
+  },
+  {
+   "global_step": 78,
+   "segment": "noise",
+   "step": 48,
+   "training": 0.706129789352417,
+   "held_out": null,
+   "lr": 0.022683219636960388,
+   "grad_max": 0.07059820268881112,
+   "move_max": 0.0023764366028895525
+  },
+  {
+   "global_step": 79,
+   "segment": "noise",
+   "step": 49,
+   "training": 0.705581545829773,
+   "held_out": null,
+   "lr": 0.021992868586060286,
+   "grad_max": 0.06758427019754483,
+   "move_max": 0.002138534336866502
+  },
+  {
+   "global_step": 80,
+   "segment": "noise",
+   "step": 50,
+   "training": 0.701391875743866,
+   "held_out": 0.7102506160736084,
+   "lr": 0.02132352798169761,
+   "grad_max": 0.08489373306183845,
+   "move_max": 0.0024465728797395782
+  },
+  {
+   "global_step": 81,
+   "segment": "noise",
+   "step": 51,
+   "training": 0.7022498846054077,
+   "held_out": null,
+   "lr": 0.020674558382731315,
+   "grad_max": 0.04285156908851053,
+   "move_max": 0.0024763408626347705
+  },
+  {
+   "global_step": 82,
+   "segment": "noise",
+   "step": 52,
+   "training": 0.709702730178833,
+   "held_out": null,
+   "lr": 0.020045339809052393,
+   "grad_max": 0.04130861003110889,
+   "move_max": 0.0015786785834836785
+  },
+  {
+   "global_step": 83,
+   "segment": "noise",
+   "step": 53,
+   "training": 0.700143575668335,
+   "held_out": null,
+   "lr": 0.019435271149298272,
+   "grad_max": 0.05063620387469773,
+   "move_max": 0.0012173863196129502
+  },
+  {
+   "global_step": 84,
+   "segment": "noise",
+   "step": 54,
+   "training": 0.7012044787406921,
+   "held_out": null,
+   "lr": 0.018843769586593114,
+   "grad_max": 0.052362412790538035,
+   "move_max": 0.0007857792762647099
+  },
+  {
+   "global_step": 85,
+   "segment": "noise",
+   "step": 55,
+   "training": 0.7067035436630249,
+   "held_out": 0.7102826237678528,
+   "lr": 0.0182702700417654,
+   "grad_max": 0.06729454133418322,
+   "move_max": 0.0021678428032740043
+  },
+  {
+   "global_step": 86,
+   "segment": "noise",
+   "step": 56,
+   "training": 0.7040567994117737,
+   "held_out": null,
+   "lr": 0.017714224633510845,
+   "grad_max": 0.04899944027277589,
+   "move_max": 0.001162922004323461
+  },
+  {
+   "global_step": 87,
+   "segment": "noise",
+   "step": 57,
+   "training": 0.7068578600883484,
+   "held_out": null,
+   "lr": 0.017175102154984984,
+   "grad_max": 0.029186629890015307,
+   "move_max": 0.0009269010021058608
+  },
+  {
+   "global_step": 88,
+   "segment": "noise",
+   "step": 58,
+   "training": 0.7009652256965637,
+   "held_out": null,
+   "lr": 0.016652387566325328,
+   "grad_max": 0.03517515548013353,
+   "move_max": 0.0008239768767372463
+  },
+  {
+   "global_step": 89,
+   "segment": "noise",
+   "step": 59,
+   "training": 0.7066550254821777,
+   "held_out": null,
+   "lr": 0.016145581502618366,
+   "grad_max": 0.053622666748739445,
+   "move_max": 0.0010816623603615953
+  },
+  {
+   "global_step": 90,
+   "segment": "noise",
+   "step": 60,
+   "training": 0.7026783227920532,
+   "held_out": 0.7104186415672302,
+   "lr": 0.015654199796841288,
+   "grad_max": 0.030783841783519162,
+   "move_max": 0.0013048018273944702
+  },
+  {
+   "global_step": 91,
+   "segment": "noise",
+   "step": 61,
+   "training": 0.7089797854423523,
+   "held_out": null,
+   "lr": 0.015177773017322713,
+   "grad_max": 0.040172324909112773,
+   "move_max": 0.0011012891351578962
+  },
+  {
+   "global_step": 92,
+   "segment": "noise",
+   "step": 62,
+   "training": 0.7004228830337524,
+   "held_out": null,
+   "lr": 0.014715846019280563,
+   "grad_max": 0.03870443469827555,
+   "move_max": 0.0010537709969372399
+  },
+  {
+   "global_step": 93,
+   "segment": "noise",
+   "step": 63,
+   "training": 0.701140820980072,
+   "held_out": null,
+   "lr": 0.014267977510008585,
+   "grad_max": 0.020257559840435115,
+   "move_max": 0.0010562817613960292
+  },
+  {
+   "global_step": 94,
+   "segment": "noise",
+   "step": 64,
+   "training": 0.7089939117431641,
+   "held_out": null,
+   "lr": 0.013833739627296213,
+   "grad_max": 0.03664032396457076,
+   "move_max": 0.0006996299737348592
+  },
+  {
+   "global_step": 95,
+   "segment": "noise",
+   "step": 65,
+   "training": 0.7027261853218079,
+   "held_out": 0.7102850079536438,
+   "lr": 0.013412717530678981,
+   "grad_max": 0.035523654145295236,
+   "move_max": 0.000969011717858094
+  },
+  {
+   "global_step": 96,
+   "segment": "noise",
+   "step": 66,
+   "training": 0.7065857648849487,
+   "held_out": null,
+   "lr": 0.013004509005128978,
+   "grad_max": 0.04182065061141454,
+   "move_max": 0.0006122160335766429
+  },
+  {
+   "global_step": 97,
+   "segment": "noise",
+   "step": 67,
+   "training": 0.7057130932807922,
+   "held_out": null,
+   "lr": 0.012608724076806802,
+   "grad_max": 0.030947089785801494,
+   "move_max": 0.0006876901800905676
+  },
+  {
+   "global_step": 98,
+   "segment": "noise",
+   "step": 68,
+   "training": 0.7134315371513367,
+   "held_out": null,
+   "lr": 0.012224984640507832,
+   "grad_max": 0.025650299564585723,
+   "move_max": 0.0009129190274344168
+  },
+  {
+   "global_step": 99,
+   "segment": "noise",
+   "step": 69,
+   "training": 0.7116577625274658,
+   "held_out": null,
+   "lr": 0.011852924098447013,
+   "grad_max": 0.037720787644747844,
+   "move_max": 0.0011633576060423908
+  },
+  {
+   "global_step": 100,
+   "segment": "noise",
+   "step": 70,
+   "training": 0.7027024030685425,
+   "held_out": 0.7102878093719482,
+   "lr": 0.011492187010036998,
+   "grad_max": 0.035662023756735474,
+   "move_max": 0.0011217057413451211
+  },
+  {
+   "global_step": 101,
+   "segment": "noise",
+   "step": 71,
+   "training": 0.7106590270996094,
+   "held_out": null,
+   "lr": 0.011142428752325106,
+   "grad_max": 0.037069529652991186,
+   "move_max": 0.000876269161575578
+  },
+  {
+   "global_step": 102,
+   "segment": "noise",
+   "step": 72,
+   "training": 0.7021039724349976,
+   "held_out": null,
+   "lr": 0.010803315190764676,
+   "grad_max": 0.02529344284479178,
+   "move_max": 0.0005903702620051487
+  },
+  {
+   "global_step": 103,
+   "segment": "noise",
+   "step": 73,
+   "training": 0.7016094326972961,
+   "held_out": null,
+   "lr": 0.010474522360006336,
+   "grad_max": 0.04115102788099465,
+   "move_max": 0.0009464753162166082
+  },
+  {
+   "global_step": 104,
+   "segment": "noise",
+   "step": 74,
+   "training": 0.708622932434082,
+   "held_out": null,
+   "lr": 0.010155736154404179,
+   "grad_max": 0.04697379530789847,
+   "move_max": 0.0007735116251189854
+  },
+  {
+   "global_step": 105,
+   "segment": "noise",
+   "step": 75,
+   "training": 0.709352433681488,
+   "held_out": 0.710360586643219,
+   "lr": 0.00984665202794123,
+   "grad_max": 0.03500375962247483,
+   "move_max": 0.0004426844158746143
+  },
+  {
+   "global_step": 106,
+   "segment": "noise",
+   "step": 76,
+   "training": 0.7005536556243896,
+   "held_out": null,
+   "lr": 0.009546974703287522,
+   "grad_max": 0.043968611251903864,
+   "move_max": 0.0007204284185517737
+  },
+  {
+   "global_step": 107,
+   "segment": "noise",
+   "step": 77,
+   "training": 0.7116259932518005,
+   "held_out": null,
+   "lr": 0.009256417889712782,
+   "grad_max": 0.03867679728476699,
+   "move_max": 0.0008515702228576989
+  },
+  {
+   "global_step": 108,
+   "segment": "noise",
+   "step": 78,
+   "training": 0.7056644558906555,
+   "held_out": null,
+   "lr": 0.008974704009584345,
+   "grad_max": 0.050574491430547444,
+   "move_max": 0.0009966605425172977
+  },
+  {
+   "global_step": 109,
+   "segment": "noise",
+   "step": 79,
+   "training": 0.6977407336235046,
+   "held_out": null,
+   "lr": 0.008701563933188907,
+   "grad_max": 0.03560502021488596,
+   "move_max": 0.000959289055416409
+  },
+  {
+   "global_step": 110,
+   "segment": "noise",
+   "step": 80,
+   "training": 0.7080897688865662,
+   "held_out": 0.7104034423828125,
+   "lr": 0.008436736721624849,
+   "grad_max": 0.027311441265349096,
+   "move_max": 0.0008550343951186967
+  },
+  {
+   "global_step": 111,
+   "segment": "noise",
+   "step": 81,
+   "training": 0.7071342468261719,
+   "held_out": null,
+   "lr": 0.008179969377519476,
+   "grad_max": 0.035674784949706995,
+   "move_max": 0.0005637407013556868
+  },
+  {
+   "global_step": 112,
+   "segment": "noise",
+   "step": 82,
+   "training": 0.701266884803772,
+   "held_out": null,
+   "lr": 0.007931016603333056,
+   "grad_max": 0.026338167296886403,
+   "move_max": 0.0006843778593349224
+  },
+  {
+   "global_step": 113,
+   "segment": "noise",
+   "step": 83,
+   "training": 0.7013757824897766,
+   "held_out": null,
+   "lr": 0.007689640567018718,
+   "grad_max": 0.06110895813003843,
+   "move_max": 0.0004545020156582365
+  },
+  {
+   "global_step": 114,
+   "segment": "noise",
+   "step": 84,
+   "training": 0.7103700041770935,
+   "held_out": null,
+   "lr": 0.00745561067481437,
+   "grad_max": 0.04090849027010181,
+   "move_max": 0.00042307234676808184
+  },
+  {
+   "global_step": 115,
+   "segment": "noise",
+   "step": 85,
+   "training": 0.7050760984420776,
+   "held_out": 0.7104214429855347,
+   "lr": 0.007228703350949573,
+   "grad_max": 0.03463249799563215,
+   "move_max": 0.0007172433662801506
+  },
+  {
+   "global_step": 116,
+   "segment": "noise",
+   "step": 86,
+   "training": 0.7064523696899414,
+   "held_out": null,
+   "lr": 0.0070087018240569,
+   "grad_max": 0.022584185723632393,
+   "move_max": 0.000813955549055997
+  },
+  {
+   "global_step": 117,
+   "segment": "noise",
+   "step": 87,
+   "training": 0.705333411693573,
+   "held_out": null,
+   "lr": 0.006795395920083761,
+   "grad_max": 0.057139121967080715,
+   "move_max": 0.00040187407350900697
+  },
+  {
+   "global_step": 118,
+   "segment": "noise",
+   "step": 88,
+   "training": 0.698390543460846,
+   "held_out": null,
+   "lr": 0.006588581861506815,
+   "grad_max": 0.04272967149383661,
+   "move_max": 0.00042090421989117796
+  },
+  {
+   "global_step": 119,
+   "segment": "noise",
+   "step": 89,
+   "training": 0.7089826464653015,
+   "held_out": null,
+   "lr": 0.00638806207265721,
+   "grad_max": 0.043294462643841965,
+   "move_max": 0.0003907391150349812
+  },
+  {
+   "global_step": 120,
+   "segment": "noise",
+   "step": 90,
+   "training": 0.7068559527397156,
+   "held_out": 0.7103257775306702,
+   "lr": 0.006193644990970613,
+   "grad_max": 0.03658174300031256,
+   "move_max": 0.00025542063362266493
+  },
+  {
+   "global_step": 121,
+   "segment": "noise",
+   "step": 91,
+   "training": 0.7018951773643494,
+   "held_out": null,
+   "lr": 0.00600514488398176,
+   "grad_max": 0.04109791110183561,
+   "move_max": 0.00036282308803675797
+  },
+  {
+   "global_step": 122,
+   "segment": "noise",
+   "step": 92,
+   "training": 0.7098456025123596,
+   "held_out": null,
+   "lr": 0.005822381671888661,
+   "grad_max": 0.043064000604307595,
+   "move_max": 0.00042321162412710064
+  },
+  {
+   "global_step": 123,
+   "segment": "noise",
+   "step": 93,
+   "training": 0.7068706154823303,
+   "held_out": null,
+   "lr": 0.005645180755516966,
+   "grad_max": 0.04708018507727327,
+   "move_max": 0.0003812018226593783
+  },
+  {
+   "global_step": 124,
+   "segment": "noise",
+   "step": 94,
+   "training": 0.7069301009178162,
+   "held_out": null,
+   "lr": 0.005473372849520146,
+   "grad_max": 0.023982172915455274,
+   "move_max": 0.00042138604592414117
+  },
+  {
+   "global_step": 125,
+   "segment": "noise",
+   "step": 95,
+   "training": 0.7007248401641846,
+   "held_out": 0.7104336023330688,
+   "lr": 0.005306793820656119,
+   "grad_max": 0.0365426516925913,
+   "move_max": 0.00033843210427199734
+  },
+  {
+   "global_step": 126,
+   "segment": "noise",
+   "step": 96,
+   "training": 0.7073777318000793,
+   "held_out": null,
+   "lr": 0.005145284530985853,
+   "grad_max": 0.04648362534527725,
+   "move_max": 0.0006351584310190606
+  },
+  {
+   "global_step": 127,
+   "segment": "noise",
+   "step": 97,
+   "training": 0.7051970958709717,
+   "held_out": null,
+   "lr": 0.004988690685844121,
+   "grad_max": 0.049064331680415255,
+   "move_max": 0.0009300745994191488
+  },
+  {
+   "global_step": 128,
+   "segment": "noise",
+   "step": 98,
+   "training": 0.7013728022575378,
+   "held_out": null,
+   "lr": 0.004836862686437174,
+   "grad_max": 0.04427108331936397,
+   "move_max": 0.0010452884681484119
+  },
+  {
+   "global_step": 129,
+   "segment": "noise",
+   "step": 99,
+   "training": 0.7013159990310669,
+   "held_out": null,
+   "lr": 0.004689655486926549,
+   "grad_max": 0.03936306004908841,
+   "move_max": 0.0005581906402365721
+  },
+  {
+   "global_step": 130,
+   "segment": "noise",
+   "step": 100,
+   "training": 0.7067135572433472,
+   "held_out": 0.7103784084320068,
+   "lr": 0.004546928455862409,
+   "grad_max": 0.04558254357198165,
+   "move_max": 0.0005270540318087067
+  },
+  {
+   "global_step": 131,
+   "segment": "noise",
+   "step": 101,
+   "training": 0.705931544303894,
+   "held_out": null,
+   "lr": 0.004408545241834121,
+   "grad_max": 0.027586978152803823,
+   "move_max": 0.0003524847466155764
+  },
+  {
+   "global_step": 132,
+   "segment": "noise",
+   "step": 102,
+   "training": 0.7065101265907288,
+   "held_out": null,
+   "lr": 0.004274373643209657,
+   "grad_max": 0.0249920674618664,
+   "move_max": 0.0003475592146429921
+  },
+  {
+   "global_step": 133,
+   "segment": "noise",
+   "step": 103,
+   "training": 0.7035125494003296,
+   "held_out": null,
+   "lr": 0.004144285481839419,
+   "grad_max": 0.024822222905278826,
+   "move_max": 0.00023308738961689516
+  },
+  {
+   "global_step": 134,
+   "segment": "noise",
+   "step": 104,
+   "training": 0.7010787725448608,
+   "held_out": null,
+   "lr": 0.004018156480603806,
+   "grad_max": 0.03400349740433204,
+   "move_max": 0.0002523825893637391
+  },
+  {
+   "global_step": 135,
+   "segment": "noise",
+   "step": 105,
+   "training": 0.7064070701599121,
+   "held_out": 0.7104675769805908,
+   "lr": 0.0038958661446875605,
+   "grad_max": 0.025275124168082114,
+   "move_max": 0.00022423711983076167
+  },
+  {
+   "global_step": 136,
+   "segment": "noise",
+   "step": 106,
+   "training": 0.700249433517456,
+   "held_out": null,
+   "lr": 0.003777297646467457,
+   "grad_max": 0.03446181726278198,
+   "move_max": 0.00020831311037676495
+  },
+  {
+   "global_step": 137,
+   "segment": "noise",
+   "step": 107,
+   "training": 0.7056596279144287,
+   "held_out": null,
+   "lr": 0.003662337713903373,
+   "grad_max": 0.029721150634827692,
+   "move_max": 0.000185669144818612
+  },
+  {
+   "global_step": 138,
+   "segment": "noise",
+   "step": 108,
+   "training": 0.7042997479438782,
+   "held_out": null,
+   "lr": 0.003550876522326116,
+   "grad_max": 0.02155976289794485,
+   "move_max": 0.00018021982128574757
+  },
+  {
+   "global_step": 139,
+   "segment": "noise",
+   "step": 109,
+   "training": 0.6994214057922363,
+   "held_out": null,
+   "lr": 0.0034428075895186192,
+   "grad_max": 0.017938211573200302,
+   "move_max": 0.00020482864471970053
+  },
+  {
+   "global_step": 140,
+   "segment": "noise",
+   "step": 110,
+   "training": 0.7056849598884583,
+   "held_out": 0.710488498210907,
+   "lr": 0.003338027673990301,
+   "grad_max": 0.023979160615650603,
+   "move_max": 0.0001979573222246053
+  },
+  {
+   "global_step": 141,
+   "segment": "noise",
+   "step": 111,
+   "training": 0.7027019262313843,
+   "held_out": null,
+   "lr": 0.0032364366763473575,
+   "grad_max": 0.02194921795785944,
+   "move_max": 0.00016328241398112114
+  },
+  {
+   "global_step": 142,
+   "segment": "noise",
+   "step": 112,
+   "training": 0.700177788734436,
+   "held_out": null,
+   "lr": 0.003137937543664824,
+   "grad_max": 0.029432670225930668,
+   "move_max": 0.0002252991092218928
+  },
+  {
+   "global_step": 143,
+   "segment": "noise",
+   "step": 113,
+   "training": 0.7031528949737549,
+   "held_out": null,
+   "lr": 0.003042436176769002,
+   "grad_max": 0.019411051059952025,
+   "move_max": 0.0002720658315092435
+  },
+  {
+   "global_step": 144,
+   "segment": "noise",
+   "step": 114,
+   "training": 0.703565239906311,
+   "held_out": null,
+   "lr": 0.0029498413403416983,
+   "grad_max": 0.0343519532236499,
+   "move_max": 0.0002512388357920661
+  },
+  {
+   "global_step": 145,
+   "segment": "noise",
+   "step": 115,
+   "training": 0.7074398994445801,
+   "held_out": 0.7103832364082336,
+   "lr": 0.002860064575760393,
+   "grad_max": 0.017488709881539388,
+   "move_max": 0.0002990055884754233
+  },
+  {
+   "global_step": 146,
+   "segment": "noise",
+   "step": 116,
+   "training": 0.7085674405097961,
+   "held_out": null,
+   "lr": 0.0027730201165910642,
+   "grad_max": 0.03332074748721319,
+   "move_max": 0.00021641867868398988
+  },
+  {
+   "global_step": 147,
+   "segment": "noise",
+   "step": 117,
+   "training": 0.7126166224479675,
+   "held_out": null,
+   "lr": 0.002688624806652943,
+   "grad_max": 0.03768466936720677,
+   "move_max": 0.00013825340420656993
+  },
+  {
+   "global_step": 148,
+   "segment": "noise",
+   "step": 118,
+   "training": 0.7036266326904297,
+   "held_out": null,
+   "lr": 0.002606798020576923,
+   "grad_max": 0.03436772299126859,
+   "move_max": 0.0001588184929114115
+  },
+  {
+   "global_step": 149,
+   "segment": "noise",
+   "step": 119,
+   "training": 0.6986793279647827,
+   "held_out": null,
+   "lr": 0.0025274615867817286,
+   "grad_max": 0.026088408301921925,
+   "move_max": 0.00014648910776408027
+  },
+  {
+   "global_step": 150,
+   "segment": "noise",
+   "step": 120,
+   "training": 0.7085115313529968,
+   "held_out": 0.7104529142379761,
+   "lr": 0.0024505397127942575,
+   "grad_max": 0.030023571263294562,
+   "move_max": 0.00022244486234663242
+  },
+  {
+   "global_step": 151,
+   "segment": "noise",
+   "step": 121,
+   "training": 0.7137293219566345,
+   "held_out": null,
+   "lr": 0.002375958912842763,
+   "grad_max": 0.029809430730352957,
+   "move_max": 0.00022402589402732405
+  },
+  {
+   "global_step": 152,
+   "segment": "noise",
+   "step": 122,
+   "training": 0.7038964629173279,
+   "held_out": null,
+   "lr": 0.0023036479376536937,
+   "grad_max": 0.02409596216204993,
+   "move_max": 0.00020933289052830096
+  },
+  {
+   "global_step": 153,
+   "segment": "noise",
+   "step": 123,
+   "training": 0.7053883075714111,
+   "held_out": null,
+   "lr": 0.0022335377063851234,
+   "grad_max": 0.05103290668427207,
+   "move_max": 0.0001677245635762486
+  },
+  {
+   "global_step": 154,
+   "segment": "noise",
+   "step": 124,
+   "training": 0.7029876708984375,
+   "held_out": null,
+   "lr": 0.0021655612406317557,
+   "grad_max": 0.033004035397066506,
+   "move_max": 0.00023982798124615244
+  },
+  {
+   "global_step": 155,
+   "segment": "noise",
+   "step": 125,
+   "training": 0.7042587399482727,
+   "held_out": 0.7104431390762329,
+   "lr": 0.002099653600438444,
+   "grad_max": 0.02056183136084377,
+   "move_max": 0.00022093307779980537
+  },
+  {
+   "global_step": 156,
+   "segment": "noise",
+   "step": 126,
+   "training": 0.7066643834114075,
+   "held_out": null,
+   "lr": 0.0020357518222611074,
+   "grad_max": 0.02977690057797207,
+   "move_max": 0.0002125920493499215
+  },
+  {
+   "global_step": 157,
+   "segment": "noise",
+   "step": 127,
+   "training": 0.706048309803009,
+   "held_out": null,
+   "lr": 0.001973794858815769,
+   "grad_max": 0.033667664554232944,
+   "move_max": 0.00027358706348866565
+  },
+  {
+   "global_step": 158,
+   "segment": "noise",
+   "step": 128,
+   "training": 0.7091090679168701,
+   "held_out": null,
+   "lr": 0.0019137235207582555,
+   "grad_max": 0.03322193525857197,
+   "move_max": 0.00023030488063293566
+  },
+  {
+   "global_step": 159,
+   "segment": "noise",
+   "step": 129,
+   "training": 0.7097315788269043,
+   "held_out": null,
+   "lr": 0.0018554804201388444,
+   "grad_max": 0.05030806822265983,
+   "move_max": 0.00023074564854188402
+  },
+  {
+   "global_step": 160,
+   "segment": "noise",
+   "step": 130,
+   "training": 0.702241837978363,
+   "held_out": 0.7104089260101318,
+   "lr": 0.0017990099155778324,
+   "grad_max": 0.05522953051782377,
+   "move_max": 0.00020065532949982748
+  },
+  {
+   "global_step": 161,
+   "segment": "noise",
+   "step": 131,
+   "training": 0.7041599154472351,
+   "held_out": null,
+   "lr": 0.0017442580591096617,
+   "grad_max": 0.03462778757624045,
+   "move_max": 0.00017368367304470607
+  },
+  {
+   "global_step": 162,
+   "segment": "noise",
+   "step": 132,
+   "training": 0.7029253840446472,
+   "held_out": null,
+   "lr": 0.001691172544644807,
+   "grad_max": 0.03633241219560604,
+   "move_max": 0.00016476949049412206
+  },
+  {
+   "global_step": 163,
+   "segment": "noise",
+   "step": 133,
+   "training": 0.7034468650817871,
+   "held_out": null,
+   "lr": 0.0016397026580002062,
+   "grad_max": 0.026912089723741685,
+   "move_max": 0.0001817663638060634
+  },
+  {
+   "global_step": 164,
+   "segment": "noise",
+   "step": 134,
+   "training": 0.7056540846824646,
+   "held_out": null,
+   "lr": 0.0015897992284504758,
+   "grad_max": 0.024409795140898017,
+   "move_max": 0.00015012709726365132
+  },
+  {
+   "global_step": 165,
+   "segment": "noise",
+   "step": 135,
+   "training": 0.7090461850166321,
+   "held_out": 0.7103683352470398,
+   "lr": 0.0015414145817536447,
+   "grad_max": 0.024302951837532345,
+   "move_max": 0.0001382961157715524
+  },
+  {
+   "global_step": 166,
+   "segment": "noise",
+   "step": 136,
+   "training": 0.702483594417572,
+   "held_out": null,
+   "lr": 0.0014945024946065241,
+   "grad_max": 0.02419423189490471,
+   "move_max": 0.00010968108872638451
+  },
+  {
+   "global_step": 167,
+   "segment": "noise",
+   "step": 137,
+   "training": 0.7040393948554993,
+   "held_out": null,
+   "lr": 0.0014490181504861989,
+   "grad_max": 0.035076505395622536,
+   "move_max": 0.00016205724007211736
+  },
+  {
+   "global_step": 168,
+   "segment": "noise",
+   "step": 138,
+   "training": 0.7071046233177185,
+   "held_out": null,
+   "lr": 0.0014049180968354594,
+   "grad_max": 0.048550948783291394,
+   "move_max": 0.00023505549956048775
+  },
+  {
+   "global_step": 169,
+   "segment": "noise",
+   "step": 139,
+   "training": 0.7032445669174194,
+   "held_out": null,
+   "lr": 0.0013621602035512725,
+   "grad_max": 0.033952634824339634,
+   "move_max": 0.0002235130548078753
+  },
+  {
+   "global_step": 170,
+   "segment": "noise",
+   "step": 140,
+   "training": 0.7084186673164368,
+   "held_out": 0.7102704644203186,
+   "lr": 0.0013207036227366313,
+   "grad_max": 0.023520380238396713,
+   "move_max": 0.00019816250106495696
+  },
+  {
+   "global_step": 171,
+   "segment": "noise",
+   "step": 141,
+   "training": 0.7076920866966248,
+   "held_out": null,
+   "lr": 0.0012805087496773333,
+   "grad_max": 0.046870936882756425,
+   "move_max": 0.0003475502809407426
+  },
+  {
+   "global_step": 172,
+   "segment": "noise",
+   "step": 142,
+   "training": 0.7088192105293274,
+   "held_out": null,
+   "lr": 0.001241537185006412,
+   "grad_max": 0.035752017848999645,
+   "move_max": 0.00017364143284360307
+  },
+  {
+   "global_step": 173,
+   "segment": "noise",
+   "step": 143,
+   "training": 0.7093992829322815,
+   "held_out": null,
+   "lr": 0.0012037516980200691,
+   "grad_max": 0.029257419494270392,
+   "move_max": 0.0001199124926003804
+  },
+  {
+   "global_step": 174,
+   "segment": "noise",
+   "step": 144,
+   "training": 0.7081707715988159,
+   "held_out": null,
+   "lr": 0.0011671161911100676,
+   "grad_max": 0.029460438287370064,
+   "move_max": 0.00011347217881200742
+  },
+  {
+   "global_step": 175,
+   "segment": "noise",
+   "step": 145,
+   "training": 0.7040963768959045,
+   "held_out": 0.71039879322052,
+   "lr": 0.0011315956652786067,
+   "grad_max": 0.031562022327309404,
+   "move_max": 5.3020266618406684e-05
+  },
+  {
+   "global_step": 176,
+   "segment": "noise",
+   "step": 146,
+   "training": 0.6986861824989319,
+   "held_out": null,
+   "lr": 0.0010971561867027268,
+   "grad_max": 0.023251632549426374,
+   "move_max": 0.00011398452297300356
+  },
+  {
+   "global_step": 177,
+   "segment": "noise",
+   "step": 147,
+   "training": 0.7044878005981445,
+   "held_out": null,
+   "lr": 0.001063764854316313,
+   "grad_max": 0.04245263637279984,
+   "move_max": 4.8927417183007345e-05
+  },
+  {
+   "global_step": 178,
+   "segment": "noise",
+   "step": 148,
+   "training": 0.708237886428833,
+   "held_out": null,
+   "lr": 0.0010313897683787217,
+   "grad_max": 0.05318527502544174,
+   "move_max": 5.1990227411705666e-05
+  },
+  {
+   "global_step": 179,
+   "segment": "noise",
+   "step": 149,
+   "training": 0.7041216492652893,
+   "held_out": 0.710399866104126,
+   "lr": 0.001,
+   "grad_max": 0.022778163158135,
+   "move_max": 5.952194270855314e-05
+  }
+ ],
+ "note": "L=6 P=3 D=32 chi=64 layer-shared 12 angles; fidelity vs mVMC Heisenberg reference (old, no S=0 projection); held-out = 8192/10000 fixed samples of an independent chain"
+}

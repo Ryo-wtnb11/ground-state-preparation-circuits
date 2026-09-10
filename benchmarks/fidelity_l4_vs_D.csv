@@ -1,0 +1,25 @@
+# 4x4 open Heisenberg, layer-shared circuit angles, exact fidelity with the Lanczos ground state over all 12870 S^z=0 configurations.
+# PEPS realized in the BP gauge (F_bp) or with a plain SVD per bond (F_plain), D_xe = D, boundary MPS chi = 3D, ALS 2 sweeps,
+# no singular-value cutoff (SV_TOL=0) unless noted. F_sv = untruncated circuit from the SCALUQ state vector.
+# The P=3 circuit's bonds are 64, 128 on the last-layer (xe) bonds; the P=2 circuit's are 16, 32 on xe.  The P=4 circuit's bonds are 128, 256 on xe (2026-09-09 scan, GPUs 6-7 only).
+# Sources: PEPS_VMC docs/benchmarks/circuit_fidelity_20260905 (2026-09-07 scans; D=32 at P=3 and D=24 at P=2 from the 2026-09-05 runs with tol=1e-4).
+P,D,chi,F_bp,F_plain,F_sv,note
+2,16,48,0.815620,0.790446,0.825321,
+2,20,60,0.820659,0.813537,0.825321,
+2,24,72,0.824385,0.823809,0.825321,tol=1e-4
+2,28,84,0.823929,0.823970,0.825321,
+2,32,96,0.825275,0.825204,0.825321,
+2,36,108,0.825214,0.825319,0.825321,bond saturates at 32 except xe
+3,24,72,0.938572,0.906251,0.953876,
+3,28,84,0.948336,0.923205,0.953876,
+3,32,96,0.953016,0.925128,0.953876,tol=1e-4
+3,36,108,0.952625,0.930199,0.953876,
+3,40,120,0.952788,0.943142,0.953876,
+3,44,132,0.952882,0.947807,0.953876,
+3,48,144,0.953616,0.953565,0.953876,
+3,64,192,0.954692,0.952325,0.953876,xe bonds still truncated (128 -> 64)
+4,32,96,0.956026,0.896798,0.977416,
+4,40,120,0.961099,0.935090,0.977416,tol=1e-4 (2026-09-06 run)
+4,48,144,0.967461,0.940616,0.977416,
+4,56,168,0.974456,0.951445,0.977416,qg2 run
+4,64,192,0.977305,0.960832,0.977416,bonds 128/256 on xe still truncated; matches F_sv to 1e-4

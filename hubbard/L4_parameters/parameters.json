@@ -1,0 +1,180 @@
+{
+  "Lx": 4,
+  "Ly": 4,
+  "boundary": "OBC",
+  "t": 1,
+  "U": 8,
+  "nup": 8,
+  "ndown": 8,
+  "energy_shift": 0,
+  "ground_energy": -6.808414466441853,
+  "angle_unit": "radian",
+  "layer_order": [
+    "yo",
+    "ye",
+    "xo",
+    "xe"
+  ],
+  "initial_covering": "xe",
+  "heisenberg_parameters_fixed": true,
+  "SW_sweeps": 1,
+  "SW_initial_phi": [
+    0.5,
+    0.5,
+    0.5,
+    0.5
+  ],
+  "objective": "1 - Hubbard ground-state fidelity",
+  "cases": [
+    {
+      "N_b": 3,
+      "theta_fixed": [
+        -2.9579949378967285,
+        0.39772769808769226,
+        0.3670109808444977,
+        1.2319667339324951,
+        0.32986944913864136,
+        0.5584115982055664,
+        0.6396933794021606,
+        0.8239349126815796,
+        0.4213123619556427,
+        0.5508972406387329,
+        0.35022976994514465,
+        0.42903226613998413
+      ],
+      "phi_optimized": [
+        0.42351427294582533,
+        0.42492046664041866,
+        0.4278036697614307,
+        0.4276145215727303
+      ],
+      "spatial_transpose_from_source": false,
+      "optimizer": {
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "phi": [
+          0.42351427294582533,
+          0.42492046664041866,
+          0.4278036697614307,
+          0.4276145215727303
+        ],
+        "fidelity": 0.8514759300561091,
+        "best_fidelity": 0.8514759300561091,
+        "iterations": 5,
+        "evaluations": 8,
+        "gradient": [
+          -1.7569685960890785e-07,
+          -3.5378118107493375e-07,
+          2.997480383760791e-07,
+          -2.2822422106804838e-07
+        ]
+      },
+      "source_checkpoint": "/Users/ryowatanabe/Research/codes/StatePreparation/diagonalization/OBC/data/sw_phi_P3_264517.CPUcluster-PRISM/best.npz",
+      "checkpoint": "Nb3/best.npz"
+    },
+    {
+      "N_b": 4,
+      "theta_fixed": [
+        3.0738962093667497,
+        0.05733602913271447,
+        0.07768880171630076,
+        -4.420120611772795,
+        -2.9554596197674368,
+        0.4206533252518602,
+        0.40328173241369614,
+        1.2430559001915495,
+        0.3904283143197307,
+        0.5790356344624681,
+        0.6130796275324384,
+        0.8109947839419362,
+        0.47190925215374346,
+        0.5433465826341505,
+        0.3155878235258638,
+        0.40741149461973303
+      ],
+      "phi_optimized": [
+        0.42350085543932536,
+        0.42520441070506965,
+        0.4280518929631608,
+        0.4279696692407737
+      ],
+      "spatial_transpose_from_source": true,
+      "optimizer": {
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "phi": [
+          0.42350085543932536,
+          0.42520441070506965,
+          0.4280518929631608,
+          0.4279696692407737
+        ],
+        "fidelity": 0.8678666852897149,
+        "best_fidelity": 0.8678666852897149,
+        "iterations": 7,
+        "evaluations": 9,
+        "gradient": [
+          1.7135659913583567e-09,
+          1.2195424787218856e-09,
+          -4.0558435670298015e-09,
+          -4.838188682153299e-09
+        ]
+      },
+      "source_checkpoint": "/Users/ryowatanabe/Research/codes/StatePreparation/diagonalization/OBC/data/sw_fixed_P4_P5_264550.CPUcluster-PRISM/P4/best.npz",
+      "checkpoint": "Nb4/best.npz"
+    },
+    {
+      "N_b": 5,
+      "theta_fixed": [
+        2.9876450461885504,
+        0.04342470612746672,
+        0.12665384856176476,
+        -4.543124113063598,
+        -3.0433593204309966,
+        0.33299981368053116,
+        0.3596363020877405,
+        1.1566671506479136,
+        0.3951552264719615,
+        0.5328967597690508,
+        0.5173556844523094,
+        0.8940803745891457,
+        0.4383986726560165,
+        0.5747230183330199,
+        0.5296750998384522,
+        0.6650536109576467,
+        0.43478780669863254,
+        0.4384882232898626,
+        0.26657214183766376,
+        0.2757041378378558
+      ],
+      "phi_optimized": [
+        0.42333262640972685,
+        0.42570080078562966,
+        0.4277138272144645,
+        0.42864675314604067
+      ],
+      "spatial_transpose_from_source": true,
+      "optimizer": {
+        "success": true,
+        "message": "Optimization terminated successfully.",
+        "phi": [
+          0.42333262640972685,
+          0.42570080078562966,
+          0.4277138272144645,
+          0.42864675314604067
+        ],
+        "fidelity": 0.9053204530591991,
+        "best_fidelity": 0.9053204530591991,
+        "iterations": 6,
+        "evaluations": 9,
+        "gradient": [
+          2.221273301145771e-09,
+          1.871214284215883e-09,
+          -2.5413751558907294e-09,
+          1.6536817705123386e-09
+        ]
+      },
+      "source_checkpoint": "/Users/ryowatanabe/Research/codes/StatePreparation/diagonalization/OBC/data/sw_fixed_P4_P5_264550.CPUcluster-PRISM/P5/best.npz",
+      "checkpoint": "Nb5/best.npz"
+    }
+  ]
+}

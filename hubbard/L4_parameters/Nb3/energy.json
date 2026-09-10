@@ -1,0 +1,70 @@
+{
+  "hamiltonian": "-sum t(cdag_i c_j+h.c.) + U sum n_up n_down; no shift",
+  "ed": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/hubbard_4x4_U8_t1_tp1_sz0_Aplusplus_xdiag",
+  "ground_energy": -6.808414466441853,
+  "optimization": {
+    "success": true,
+    "message": "Optimization terminated successfully.",
+    "phi": [
+      0.42351427294582533,
+      0.42492046664041866,
+      0.4278036697614307,
+      0.4276145215727303
+    ],
+    "fidelity": 0.8514759300561091,
+    "best_fidelity": 0.8514759300561091,
+    "iterations": 5,
+    "evaluations": 8,
+    "gradient": [
+      -1.7569685960890785e-07,
+      -3.5378118107493375e-07,
+      2.997480383760791e-07,
+      -2.2822422106804838e-07
+    ]
+  },
+  "checkpoint": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/sw_phi_P3_264517.CPUcluster-PRISM/best.npz",
+  "states": [
+    {
+      "state": "before_SW",
+      "phi": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fidelity": 0.4211520600707218,
+      "energy": 0.0,
+      "energy_per_site": 0.0,
+      "energy_above_ground": 6.808414466441853,
+      "seconds": 3.391959453932941
+    },
+    {
+      "state": "SW_phi_0.5",
+      "phi": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "fidelity": 0.834296653705431,
+      "energy": -6.002450489808691,
+      "energy_per_site": -0.3751531556130432,
+      "energy_above_ground": 0.8059639766331621,
+      "seconds": 3.4052504138089716
+    },
+    {
+      "state": "optimized_best_SW",
+      "phi": [
+        0.42351427294582533,
+        0.42492046664041866,
+        0.4278036697614307,
+        0.4276145215727303
+      ],
+      "fidelity": 0.851475930058,
+      "energy": -6.344713889919371,
+      "energy_per_site": -0.39654461811996067,
+      "energy_above_ground": 0.4637005765224824,
+      "seconds": 3.4306855308823287
+    }
+  ]
+}

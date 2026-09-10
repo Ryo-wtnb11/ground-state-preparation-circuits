@@ -1,0 +1,38 @@
+{
+  "ed": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/hubbard_4x4_U8_t1_tp1_sz0_Aplusplus_xdiag",
+  "baseline": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/hubbard_fidelity_4x4_264514.CPUcluster-PRISM/fidelity_P3.npz",
+  "Lx": 4,
+  "Ly": 4,
+  "P": 3,
+  "order": [
+    "yo",
+    "ye",
+    "xo",
+    "xe"
+  ],
+  "U": 8,
+  "baseline_fidelity": 0.8342966537036125,
+  "objective": "1-Fidelity",
+  "engine": "sector complex128",
+  "maxiter": 30,
+  "gtol": 1e-06,
+  "thread_benchmarks": [
+    {
+      "threads": 8,
+      "seconds": 0.18636206118389964
+    },
+    {
+      "threads": 24,
+      "seconds": 0.09962051222100854
+    },
+    {
+      "threads": 48,
+      "seconds": 0.10092785814777017
+    },
+    {
+      "threads": 96,
+      "seconds": 0.1048155939206481
+    }
+  ],
+  "threads": 24
+}

@@ -1,0 +1,17 @@
+{
+  "Nb3/best.npz": "9489551165e0d09e6d3036aba022b68c097ca5c625306645fb74303b324f3366",
+  "Nb3/config.json": "4c8858f7acf70d0e2636a8eda3f4a0022b2d431ca149fa81000e5c5e79e7965d",
+  "Nb3/result.json": "7bc046c8f4bcbe4a5b15e8c2d1f95bef9feaa446dbd84aae21ef337e6798242f",
+  "Nb3/evaluations.jsonl": "d23bb6ed8b21f802dd09481f358089be3535dd638b6d5595b664c699dae97a06",
+  "Nb3/energy.json": "f03b8fb3abf4f2511fdc0607b6cbf30d282a923640905f566fa370cd08b3ff13",
+  "Nb4/best.npz": "51d0db88f8727e0b7c53db951257f2aa88b04151df48e5cbd3c4a391df480e4a",
+  "Nb4/config.json": "1b3f25d032c54e81bf1deddf9ba282c5252e27338718ac06a8efd948a319163a",
+  "Nb4/result.json": "4c6737d419e1bf239ddc42a0dfc410b7faa9d9522f303d0668b120710d293732",
+  "Nb4/evaluations.jsonl": "c325b69d7295fea565c3dedb10f3733b0560af0c18dbfcfbe37220f628bfc3cb",
+  "Nb4/energy.json": "2489369bebe78aab316c8058b16ccb4b00c528a8ffbcf9813e53828c5b034ec9",
+  "Nb5/best.npz": "240c8c6b0989fa416b12e230233fdaf588af2c8377419eea8758dfc6a50259dc",
+  "Nb5/config.json": "d4aa5cee9340503c9925b4f226d9d431bacb2cb92b007f8fcd423740313ed49d",
+  "Nb5/result.json": "128c8433a29ba8b77f2d532e81379395656c8271329ff9cba38eba82dcf222e9",
+  "Nb5/evaluations.jsonl": "f2a45fed5713d54f8f81071625e9dbfa5aea21b01e62b221dfd972dfdbbbb8dd",
+  "Nb5/energy.json": "88f70c973be2d6b0aba238d8e755ad64083ffa867d33090b4823369ff5a79a5f"
+}

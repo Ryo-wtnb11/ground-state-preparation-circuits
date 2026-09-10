@@ -1,0 +1,192 @@
+[
+  {
+    "file": "hubbard/L4_parameters/Nb3/best.npz",
+    "source": "latex_source/hubbard_L4_parameters/Nb3/best.npz",
+    "sha256": "9489551165e0d09e6d3036aba022b68c097ca5c625306645fb74303b324f3366"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb3/config.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb3/config.json",
+    "sha256": "4c8858f7acf70d0e2636a8eda3f4a0022b2d431ca149fa81000e5c5e79e7965d"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb3/energy.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb3/energy.json",
+    "sha256": "f03b8fb3abf4f2511fdc0607b6cbf30d282a923640905f566fa370cd08b3ff13"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb3/evaluations.jsonl",
+    "source": "latex_source/hubbard_L4_parameters/Nb3/evaluations.jsonl",
+    "sha256": "d23bb6ed8b21f802dd09481f358089be3535dd638b6d5595b664c699dae97a06"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb3/result.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb3/result.json",
+    "sha256": "7bc046c8f4bcbe4a5b15e8c2d1f95bef9feaa446dbd84aae21ef337e6798242f"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb4/best.npz",
+    "source": "latex_source/hubbard_L4_parameters/Nb4/best.npz",
+    "sha256": "51d0db88f8727e0b7c53db951257f2aa88b04151df48e5cbd3c4a391df480e4a"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb4/config.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb4/config.json",
+    "sha256": "1b3f25d032c54e81bf1deddf9ba282c5252e27338718ac06a8efd948a319163a"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb4/energy.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb4/energy.json",
+    "sha256": "2489369bebe78aab316c8058b16ccb4b00c528a8ffbcf9813e53828c5b034ec9"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb4/evaluations.jsonl",
+    "source": "latex_source/hubbard_L4_parameters/Nb4/evaluations.jsonl",
+    "sha256": "c325b69d7295fea565c3dedb10f3733b0560af0c18dbfcfbe37220f628bfc3cb"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb4/result.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb4/result.json",
+    "sha256": "4c6737d419e1bf239ddc42a0dfc410b7faa9d9522f303d0668b120710d293732"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb5/best.npz",
+    "source": "latex_source/hubbard_L4_parameters/Nb5/best.npz",
+    "sha256": "240c8c6b0989fa416b12e230233fdaf588af2c8377419eea8758dfc6a50259dc"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb5/config.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb5/config.json",
+    "sha256": "d4aa5cee9340503c9925b4f226d9d431bacb2cb92b007f8fcd423740313ed49d"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb5/energy.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb5/energy.json",
+    "sha256": "88f70c973be2d6b0aba238d8e755ad64083ffa867d33090b4823369ff5a79a5f"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb5/evaluations.jsonl",
+    "source": "latex_source/hubbard_L4_parameters/Nb5/evaluations.jsonl",
+    "sha256": "f2a45fed5713d54f8f81071625e9dbfa5aea21b01e62b221dfd972dfdbbbb8dd"
+  },
+  {
+    "file": "hubbard/L4_parameters/Nb5/result.json",
+    "source": "latex_source/hubbard_L4_parameters/Nb5/result.json",
+    "sha256": "128c8433a29ba8b77f2d532e81379395656c8271329ff9cba38eba82dcf222e9"
+  },
+  {
+    "file": "hubbard/L4_parameters/README.md",
+    "source": "latex_source/hubbard_L4_parameters/README.md",
+    "sha256": "eb2bff9846a3c616da28c78163e0072717fac93c187a70a3846c6171b40c9ef0"
+  },
+  {
+    "file": "hubbard/L4_parameters/heisenberg_theta.csv",
+    "source": "latex_source/hubbard_L4_parameters/heisenberg_theta.csv",
+    "sha256": "8927f57cf33ea41c815f5d6d3308b4985e0e17da4b9177b70b19b6cd63db9b10"
+  },
+  {
+    "file": "hubbard/L4_parameters/parameters.json",
+    "source": "latex_source/hubbard_L4_parameters/parameters.json",
+    "sha256": "01c33d26eb07d4a89f65e72ead10488d64f6b2e7d35de120dfcd2aaf357135fd"
+  },
+  {
+    "file": "hubbard/L4_parameters/sha256.json",
+    "source": "latex_source/hubbard_L4_parameters/sha256.json",
+    "sha256": "96d4ada9d8a4d2197b00185cae87d10c3c2d9b786ad39f33b97cf303f59bcd41"
+  },
+  {
+    "file": "hubbard/L4_parameters/summary.csv",
+    "source": "latex_source/hubbard_L4_parameters/summary.csv",
+    "sha256": "65b4b1bafb07c8dc253aacd2001193a360c15b914effed7dde3f6c373c2b6bb9"
+  },
+  {
+    "file": "hubbard/L4_parameters/sw_phi.csv",
+    "source": "latex_source/hubbard_L4_parameters/sw_phi.csv",
+    "sha256": "e8e49e1bbbe7b89ebe3b4fd0216aafc09204259f304333829cba1739716c3e0d"
+  },
+  {
+    "file": "heisenberg/parameters/README.md",
+    "source": "latex_source/visualize/data/parameters/README.md",
+    "sha256": "b0695b599d7015cd637c9f8a5e6978ede592d257be401b24472ccbee97ab1d19"
+  },
+  {
+    "file": "heisenberg/parameters/circuit_parameters.json",
+    "source": "latex_source/visualize/data/parameters/circuit_parameters.json",
+    "sha256": "bcacf8329e2d0310606ed7888ee74402cb48b37d025779efde422584ebc343b0"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P10_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P10_layer_shared.npz",
+    "sha256": "8e8aa1b1855872ee27d4e436a2185130596b41a7dd87e064bfad56adbad28a3c"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P2_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P2_layer_shared.npz",
+    "sha256": "fa73cb4992cb664cdcd63f40b16c1ccd4e41c87a9a5e17b8d4816ca3d07bcbfa"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P3_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P3_layer_shared.npz",
+    "sha256": "48ef93c61153aedbcde26cef331313661715857098336fd39aaee4f9232dd851"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P4_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P4_layer_shared.npz",
+    "sha256": "554038eea9affeb58adfa43c5b2290c9fbafbea8e0192068c7bc53a6d79d56a6"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P5_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P5_layer_shared.npz",
+    "sha256": "a9f958ac3e8101498120425d0f973e395f38406fe47e87190e3c97a086b4b018"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P6_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P6_layer_shared.npz",
+    "sha256": "fb8321c8214df38b0d07137350533437eb10bf1cbff935fb55e524da63322665"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P7_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P7_layer_shared.npz",
+    "sha256": "3da09398adfa97e1a4daaba3f766d79c06bca911fa437e37121b061e91f133f6"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P8_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P8_layer_shared.npz",
+    "sha256": "9bbb6a0700054aa2e55fc48bcaece5e3b29d69bf7eeefc06b584f7e50a823e50"
+  },
+  {
+    "file": "heisenberg/parameters/l4_P9_layer_shared.npz",
+    "source": "latex_source/visualize/data/parameters/l4_P9_layer_shared.npz",
+    "sha256": "fb1c62075d67f28c9741d3c9ba4402bfb4ef8f08586070718a191b51a4b72d53"
+  },
+  {
+    "file": "heisenberg/parameters/l6_P3_reflection_orbit_lanczos.npz",
+    "source": "latex_source/visualize/data/parameters/l6_P3_reflection_orbit_lanczos.npz",
+    "sha256": "d65861b8b7a1fe44c5628b6db2f5a0735d91d2fc846d1dc7c301ec73f4980293"
+  },
+  {
+    "file": "benchmarks/angles_layer_shared_l4.json",
+    "source": "latex_source/visualize/data/angles_layer_shared_l4.json",
+    "sha256": "a2d0e02d3cf4f5fb3f8bd69fd03a2f4507203bfc5c4807dd95e5bedb205ecc6c"
+  },
+  {
+    "file": "benchmarks/fidelity_fit_l6.json",
+    "source": "latex_source/visualize/data/fidelity_fit_l6.json",
+    "sha256": "b2b8206912bc9bfdbb7a0b29903d8186fe7b5850bd08b2f898a15f5fa8301dbd"
+  },
+  {
+    "file": "benchmarks/fidelity_fit_l6_orbit.json",
+    "source": "latex_source/visualize/data/fidelity_fit_l6_orbit.json",
+    "sha256": "b10fcb89f9dc32bbf91a6daaed3ceaa2761975601cfbd23a257589b4d26cb14d"
+  },
+  {
+    "file": "benchmarks/fidelity_fit_l6_orbit_lanczos.json",
+    "source": "latex_source/visualize/data/fidelity_fit_l6_orbit_lanczos.json",
+    "sha256": "5d9e7c7fa70d1037701cc8204e1591429fd09b4a7b79042451a7f4bb1f2047c3"
+  },
+  {
+    "file": "benchmarks/fidelity_l4_vs_D.csv",
+    "source": "latex_source/visualize/data/fidelity_l4_vs_D.csv",
+    "sha256": "9001b72105d0ce43bed1248070f3c9cc0eece6c48fca35d1bafddfef57816315"
+  }
+]
