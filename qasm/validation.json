@@ -1,0 +1,111 @@
+{
+  "checks": [
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 2,
+      "max_state_error_up_to_phase": 7.457939178747932e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 3,
+      "max_state_error_up_to_phase": 8.280284175086359e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 4,
+      "max_state_error_up_to_phase": 4.47545209131181e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 5,
+      "max_state_error_up_to_phase": 4.2571117881356947e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 6,
+      "max_state_error_up_to_phase": 2.2887833992611187e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 7,
+      "max_state_error_up_to_phase": 3.2368285245694683e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 8,
+      "max_state_error_up_to_phase": 3.521958623843989e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 9,
+      "max_state_error_up_to_phase": 4.0980616289968964e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "heisenberg",
+      "L": 4,
+      "N_b": 10,
+      "max_state_error_up_to_phase": 6.955527313080394e-16,
+      "test": "full exported circuit vs direct eSWAP evolution"
+    },
+    {
+      "model": "hubbard",
+      "L": 4,
+      "N_b": 3,
+      "max_state_error_up_to_phase": 9.473559806558736e-16,
+      "test": "saved pre-SW spin state"
+    },
+    {
+      "model": "hubbard",
+      "L": 4,
+      "N_b": 4,
+      "max_state_error_up_to_phase": 1.4304896245381993e-16,
+      "test": "saved pre-SW spin state"
+    },
+    {
+      "model": "hubbard",
+      "L": 4,
+      "N_b": 5,
+      "max_state_error_up_to_phase": 1.5515838457795457e-16,
+      "test": "saved pre-SW spin state"
+    },
+    {
+      "model": "hubbard",
+      "L": 2,
+      "N_b": 3,
+      "test": "full circuit vs fermionic SW evolution",
+      "max_state_error_up_to_phase": 3.510833468576701e-16
+    },
+    {
+      "model": "hubbard",
+      "L": 2,
+      "N_b": 4,
+      "test": "full circuit vs fermionic SW evolution",
+      "max_state_error_up_to_phase": 6.145525706514757e-16
+    },
+    {
+      "model": "hubbard",
+      "L": 2,
+      "N_b": 5,
+      "test": "full circuit vs fermionic SW evolution",
+      "max_state_error_up_to_phase": 3.855927796350635e-16
+    }
+  ],
+  "scope": "Logical, unsynthesized circuits; no large-Hubbard state-vector simulation.",
+  "exported_files_checked": 48
+}

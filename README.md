@@ -41,6 +41,8 @@ Heisenberg qubit i denotes site i; Hubbard qubits 2i and 2i+1 denote up and down
 
 Regenerate with `python3 export_qasm.py` (standard library only). Run `python3 check_qasm.py` with NumPy installed to check local eSWAP/SW matrices, intermediate-site JW signs, and exported syntax/index conventions. Exported rotation counts are checked against the manuscript formulas. These checks do not constitute a new large-system fidelity calculation.
 
+A second audit is available as `python3 audit_circuits.py` (NumPy). It reads all 48 exported files, checks parameter order, rotation angles, register sizes, counts and hashes, executes all 4×4 Heisenberg exports against direct eSWAP evolution, and compares each Hubbard circuit's pre-embedding spin state to the saved optimization state. Full 2×2 Hubbard circuits are also compared with fermionic SW evolution, including embedding and intermediate JW signs. Results are recorded in `qasm/validation.json`. In the Hubbard exports, the initial spin is held on the even qubit before the local embedding; the final occupation convention is still up=2i, down=2i+1.
+
 The 6×6 reflection-orbit parameters remain CSV-only: an explicit bond-to-orbit mapping is required before exporting that optimized circuit.
 
 ## Provenance
