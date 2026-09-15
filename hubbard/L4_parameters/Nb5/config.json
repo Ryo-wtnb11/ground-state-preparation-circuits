@@ -1,6 +1,6 @@
 {
   "ed": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/hubbard_4x4_U8_t1_tp1_sz0_Aplusplus_xdiag",
-  "baseline": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/sw_fixed_P4_P5_264550.CPUcluster-PRISM/baseline_P5.npz",
+  "baseline": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/sw_layer_shared_264568.CPUcluster-PRISM/baseline_P5.npz",
   "Lx": 4,
   "Ly": 4,
   "P": 5,
@@ -11,7 +11,7 @@
     "xe"
   ],
   "U": 8,
-  "baseline_fidelity": 0.8873719400924195,
+  "baseline_fidelity": 0.8971332738143892,
   "objective": "1-Fidelity",
   "engine": "sector complex128",
   "maxiter": 30,

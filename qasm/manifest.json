@@ -367,7 +367,7 @@
     "qubits": 32,
     "rotations": 408,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "2864f35d31974e53a979b2787204231b310a7aa757c41fadb3cb52a4cc751638"
+    "sha256": "9cb4290ec7a8313dfa5972c8827037ac60a47a71409ce3ff1b34ac30bc9518de"
   },
   {
     "file": "qasm/hubbard/hubbard_L6x6_Nb3.qasm",
@@ -377,7 +377,7 @@
     "qubits": 72,
     "rotations": 1020,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "1bcd1d440d3cb001a29ea21e6157a4c850fe5a255b13b67b4082e9c5dbc0aa1b"
+    "sha256": "5f93c65b78e7e4281a78628a068a32e408fdad1d4bbbac418cd61286cb359294"
   },
   {
     "file": "qasm/hubbard/hubbard_L8x8_Nb3.qasm",
@@ -387,7 +387,7 @@
     "qubits": 128,
     "rotations": 1904,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "038af9dc512a6c2649f9181e8f1d335067fc2c6c8d8d85fef23f4b3520ddf0c4"
+    "sha256": "28125b27ead122af1c5a1baa62da9e3c68908a9cd0ccba08e552fb86e468425c"
   },
   {
     "file": "qasm/hubbard/hubbard_L10x10_Nb3.qasm",
@@ -397,7 +397,7 @@
     "qubits": 200,
     "rotations": 3060,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "9c9eeb6a5d2f2c7c1cd73bcc0bc36374046835f75e375ba6c4f83e7f077311c2"
+    "sha256": "b97845cfb3c831033291bea9f3e4043a1eebd5180d33d02fc3b3e428c27ac5f9"
   },
   {
     "file": "qasm/hubbard/hubbard_L4x4_Nb4.qasm",
@@ -407,7 +407,7 @@
     "qubits": 32,
     "rotations": 480,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "977be4cd89a0af220991a6e35746400104f5c9e7e528396e79cfcc43a8c2a794"
+    "sha256": "fd7759c5daa2b581e127866ce37e7f0c8241797f609ccc4c40d9550772a18754"
   },
   {
     "file": "qasm/hubbard/hubbard_L6x6_Nb4.qasm",
@@ -417,7 +417,7 @@
     "qubits": 72,
     "rotations": 1200,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "9d82db811812bbc4e64dba9491ef008028ac48f3ae7193ebfe5e886fc154ddb0"
+    "sha256": "1d838e3c3109fb4fe62a8fc06ca9db32859faa37c06a58ffcbf269ff5f9f2165"
   },
   {
     "file": "qasm/hubbard/hubbard_L8x8_Nb4.qasm",
@@ -427,7 +427,7 @@
     "qubits": 128,
     "rotations": 2240,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "4c3029624c8f6aba6d6de2ea08ddf524b1832c807130a42de2555c85df807c18"
+    "sha256": "2b8a6f76290e5f6e522d540f90a90fd4c7cd7683657a87ff4d1e0730ff8fa493"
   },
   {
     "file": "qasm/hubbard/hubbard_L10x10_Nb4.qasm",
@@ -437,7 +437,7 @@
     "qubits": 200,
     "rotations": 3600,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "98052fe650c1918474b933edef613672c1b6ea255296b25594f7fbe2a91a1c9a"
+    "sha256": "4f675fdbe40e067a4e6b91908896dddcc116b604b9d247b2178d4e0d6822685f"
   },
   {
     "file": "qasm/hubbard/hubbard_L4x4_Nb5.qasm",
@@ -447,7 +447,7 @@
     "qubits": 32,
     "rotations": 552,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "9f63aeb2e2df5293aaf6c9bba6431cad814eda77ed14521744cd9901576b9c87"
+    "sha256": "28cee15e901ef8a432816f7e10409415c40d732ada0b641af484116b3868aba4"
   },
   {
     "file": "qasm/hubbard/hubbard_L6x6_Nb5.qasm",
@@ -457,7 +457,7 @@
     "qubits": 72,
     "rotations": 1380,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "6cef2697fc3b692fb8a5ceceead42b3a6ebedab83e5f14404cb04e50a588827d"
+    "sha256": "9a4ccbc5498b7afa8e92b125d16212d6f501342f87663aad19e049b0369edda4"
   },
   {
     "file": "qasm/hubbard/hubbard_L8x8_Nb5.qasm",
@@ -467,7 +467,7 @@
     "qubits": 128,
     "rotations": 2576,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "e36504f75d7f35a4bf8db98eca21a05bed0de96643ea783eaf8d198195640878"
+    "sha256": "5545e4599ba460c123330113f0e346fbd0d367540ff8ac4b14504e9d7ccf1d1d"
   },
   {
     "file": "qasm/hubbard/hubbard_L10x10_Nb5.qasm",
@@ -477,6 +477,6 @@
     "qubits": 200,
     "rotations": 4140,
     "source": "hubbard_layer_shared.csv",
-    "sha256": "f7ba9bb06520bfebf21aab602d765349a9603034ab1746abe7fd1c7c686cdbf3"
+    "sha256": "5c93e9e6d5a1e9f3207277a8ba2ccfb48c1c8399b9269fa14e8d06b4b5b4e817"
   }
 ]

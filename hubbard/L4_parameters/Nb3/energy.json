@@ -6,23 +6,23 @@
     "success": true,
     "message": "Optimization terminated successfully.",
     "phi": [
-      0.42351427294582533,
-      0.42492046664041866,
-      0.4278036697614307,
-      0.4276145215727303
+      0.4235145871037478,
+      0.42492204426295077,
+      0.42780426925919013,
+      0.4276135533551663
     ],
-    "fidelity": 0.8514759300561091,
-    "best_fidelity": 0.8514759300561091,
+    "fidelity": 0.8514794400167384,
+    "best_fidelity": 0.8514794400167384,
     "iterations": 5,
     "evaluations": 8,
     "gradient": [
-      -1.7569685960890785e-07,
-      -3.5378118107493375e-07,
-      2.997480383760791e-07,
-      -2.2822422106804838e-07
+      -2.840128676723404e-07,
+      -3.5200546342128644e-07,
+      4.5135654649528997e-07,
+      -1.7296311449928325e-07
     ]
   },
-  "checkpoint": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/sw_phi_P3_264517.CPUcluster-PRISM/best.npz",
+  "checkpoint": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/sw_layer_shared_264568.CPUcluster-PRISM/P3/best.npz",
   "states": [
     {
       "state": "before_SW",
@@ -32,11 +32,11 @@
         0.0,
         0.0
       ],
-      "fidelity": 0.4211520600707218,
+      "fidelity": 0.4211535695390493,
       "energy": 0.0,
       "energy_per_site": 0.0,
       "energy_above_ground": 6.808414466441853,
-      "seconds": 3.391959453932941
+      "seconds": 3.14700779132545
     },
     {
       "state": "SW_phi_0.5",
@@ -46,25 +46,25 @@
         0.5,
         0.5
       ],
-      "fidelity": 0.834296653705431,
-      "energy": -6.002450489808691,
-      "energy_per_site": -0.3751531556130432,
-      "energy_above_ground": 0.8059639766331621,
-      "seconds": 3.4052504138089716
+      "fidelity": 0.8343003141280817,
+      "energy": -6.002451045225003,
+      "energy_per_site": -0.3751531903265627,
+      "energy_above_ground": 0.80596342121685,
+      "seconds": 3.768958612345159
     },
     {
       "state": "optimized_best_SW",
       "phi": [
-        0.42351427294582533,
-        0.42492046664041866,
-        0.4278036697614307,
-        0.4276145215727303
+        0.4235145871037478,
+        0.42492204426295077,
+        0.42780426925919013,
+        0.4276135533551663
       ],
-      "fidelity": 0.851475930058,
-      "energy": -6.344713889919371,
-      "energy_per_site": -0.39654461811996067,
-      "energy_above_ground": 0.4637005765224824,
-      "seconds": 3.4306855308823287
+      "fidelity": 0.8514794400173288,
+      "energy": -6.344713555405354,
+      "energy_per_site": -0.39654459721283464,
+      "energy_above_ground": 0.4637009110364989,
+      "seconds": 3.416954666376114
     }
   ]
 }

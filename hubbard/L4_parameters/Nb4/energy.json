@@ -6,23 +6,23 @@
     "success": true,
     "message": "Optimization terminated successfully.",
     "phi": [
-      0.42350085543932536,
-      0.42520441070506965,
-      0.4280518929631608,
-      0.4279696692407737
+      0.4234881261491977,
+      0.42549146030756674,
+      0.4279524474150808,
+      0.42841789723772267
     ],
-    "fidelity": 0.8678666852897149,
-    "best_fidelity": 0.8678666852897149,
-    "iterations": 7,
+    "fidelity": 0.8940611846383679,
+    "best_fidelity": 0.8940611846383679,
+    "iterations": 6,
     "evaluations": 9,
     "gradient": [
-      1.7135659913583567e-09,
-      1.2195424787218856e-09,
-      -4.0558435670298015e-09,
-      -4.838188682153299e-09
+      2.2926384575516767e-10,
+      2.0024948669747356e-09,
+      2.960474018709469e-10,
+      1.8716756148423608e-09
     ]
   },
-  "checkpoint": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/sw_fixed_P4_P5_264550.CPUcluster-PRISM/P4/best.npz",
+  "checkpoint": "/home/ryo-w/codes/StatePreparation/diagonalization/OBC/data/sw_layer_shared_264568.CPUcluster-PRISM/P4/best.npz",
   "states": [
     {
       "state": "before_SW",
@@ -32,11 +32,11 @@
         0.0,
         0.0
       ],
-      "fidelity": 0.42909514649160774,
+      "fidelity": 0.44190425721419213,
       "energy": 0.0,
       "energy_per_site": 0.0,
       "energy_above_ground": 6.808414466441853,
-      "seconds": 3.3004238470457494
+      "seconds": 3.4291858030483127
     },
     {
       "state": "SW_phi_0.5",
@@ -46,25 +46,25 @@
         0.5,
         0.5
       ],
-      "fidelity": 0.8504910813965244,
-      "energy": -6.010480477201207,
-      "energy_per_site": -0.3756550298250754,
-      "energy_above_ground": 0.7979339892406463,
-      "seconds": 3.5336790210567415
+      "fidelity": 0.8762892121407978,
+      "energy": -6.018608966271298,
+      "energy_per_site": -0.37616306039195613,
+      "energy_above_ground": 0.7898055001705551,
+      "seconds": 3.440344102680683
     },
     {
       "state": "optimized_best_SW",
       "phi": [
-        0.42350085543932536,
-        0.42520441070506965,
-        0.4280518929631608,
-        0.4279696692407737
+        0.4234881261491977,
+        0.42549146030756674,
+        0.4279524474150808,
+        0.42841789723772267
       ],
-      "fidelity": 0.8678666852903375,
-      "energy": -6.353199727636039,
-      "energy_per_site": -0.3970749829772524,
-      "energy_above_ground": 0.45521473880581453,
-      "seconds": 3.4267024770379066
+      "fidelity": 0.8940611846389377,
+      "energy": -6.36324124567517,
+      "energy_per_site": -0.39770257785469815,
+      "energy_above_ground": 0.44517322076668275,
+      "seconds": 3.429922640323639
     }
   ]
 }

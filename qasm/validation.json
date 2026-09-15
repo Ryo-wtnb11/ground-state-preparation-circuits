@@ -67,21 +67,21 @@
       "model": "hubbard",
       "L": 4,
       "N_b": 3,
-      "max_state_error_up_to_phase": 9.473559806558736e-16,
+      "max_state_error_up_to_phase": 8.715427528620302e-16,
       "test": "saved pre-SW spin state"
     },
     {
       "model": "hubbard",
       "L": 4,
       "N_b": 4,
-      "max_state_error_up_to_phase": 1.4304896245381993e-16,
+      "max_state_error_up_to_phase": 5.095246377785861e-16,
       "test": "saved pre-SW spin state"
     },
     {
       "model": "hubbard",
       "L": 4,
       "N_b": 5,
-      "max_state_error_up_to_phase": 1.5515838457795457e-16,
+      "max_state_error_up_to_phase": 3.191891195797325e-16,
       "test": "saved pre-SW spin state"
     },
     {
@@ -89,21 +89,21 @@
       "L": 2,
       "N_b": 3,
       "test": "full circuit vs fermionic SW evolution",
-      "max_state_error_up_to_phase": 3.510833468576701e-16
+      "max_state_error_up_to_phase": 2.8305244335018383e-16
     },
     {
       "model": "hubbard",
       "L": 2,
       "N_b": 4,
       "test": "full circuit vs fermionic SW evolution",
-      "max_state_error_up_to_phase": 6.145525706514757e-16
+      "max_state_error_up_to_phase": 5.783891694525952e-16
     },
     {
       "model": "hubbard",
       "L": 2,
       "N_b": 5,
       "test": "full circuit vs fermionic SW evolution",
-      "max_state_error_up_to_phase": 3.855927796350635e-16
+      "max_state_error_up_to_phase": 4.494775313252277e-16
     }
   ],
   "scope": "Logical, unsynthesized circuits; no large-Hubbard state-vector simulation.",
